@@ -680,3 +680,210 @@ h6,
     color: var(--bs-secondary) !important;
 }
 /*** Footer End ***/
+
+
+/*** Achievement Counter Start ***/
+.achievement {
+    background: linear-gradient(rgba(153, 106, 1, 0.88), rgba(121, 0, 2, 0.88)), url(../img/hero-img.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.achievement .achievement-item {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.achievement .achievement-item .counter {
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-family: 'Fredoka', sans-serif;
+    color: var(--bs-white);
+    line-height: 1;
+}
+/*** Achievement Counter End ***/
+
+
+/*** CTA Start ***/
+.cta-section {
+    background: linear-gradient(rgba(57, 61, 114, 0.92), rgba(121, 0, 2, 0.88)), url(../img/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*** CTA End ***/
+
+
+/*** Gallery Page Start ***/
+.gallery .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 2px solid var(--bs-primary);
+}
+
+.gallery .gallery-item img {
+    transition: 0.5s;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery .gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.gallery .gallery-item .gallery-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 38px);
+    background: rgba(153, 106, 1, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.gallery .gallery-item:hover .gallery-overlay {
+    opacity: 1;
+}
+
+.gallery .gallery-item .gallery-caption {
+    font-size: 13px;
+}
+
+.gallery .gallery-filter button {
+    border-radius: 25% 10%;
+    transition: 0.3s;
+}
+
+.gallery .gallery-filter button.active {
+    background: var(--bs-primary);
+    color: #fff;
+    border-color: var(--bs-primary);
+}
+
+.gallery-item-wrap.hide {
+    display: none;
+}
+/*** Gallery Page End ***/
+
+
+/*** Results & Achievements Page Start ***/
+.results-hero {
+    background: linear-gradient(rgba(153, 106, 1, 0.85), rgba(57, 61, 114, 0.85)), url(../img/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.result-stat-card {
+    text-align: center;
+    padding: 30px 20px;
+    background: var(--bs-light);
+    border: 2px solid var(--bs-primary);
+    border-radius: 50% 20% / 10% 40%;
+    transition: 0.5s;
+}
+
+.result-stat-card:hover {
+    background: var(--bs-primary);
+    transform: translateY(-5px);
+}
+
+.result-stat-card:hover h2,
+.result-stat-card:hover p,
+.result-stat-card:hover i {
+    color: var(--bs-white) !important;
+}
+
+.award-card {
+    border-radius: 10px;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.award-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(153, 106, 1, 0.2);
+}
+/*** Results & Achievements Page End ***/
+
+
+/*** Schedule Table Start ***/
+.schedule-section .table thead {
+    background: var(--bs-primary);
+    color: #fff;
+}
+
+.schedule-section .table-hover tbody tr:hover {
+    background-color: var(--bs-light);
+}
+
+.schedule-section .table td,
+.schedule-section .table th {
+    vertical-align: middle;
+    text-align: center;
+}
+/*** Schedule Table End ***/
+
+
+/*** Fees Section Start ***/
+.fees-card {
+    border-radius: 50% 20% / 10% 40%;
+    border: 2px solid var(--bs-primary);
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.fees-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(153, 106, 1, 0.2);
+}
+
+.fees-card .fees-header {
+    background: var(--bs-primary);
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+}
+
+.fees-card.featured .fees-header {
+    background: var(--bs-secondary);
+}
+/*** Fees Section End ***/
+
+
+/*** WhatsApp Float Button Start ***/
+.whatsapp-float {
+    position: fixed;
+    right: 30px;
+    bottom: 90px;
+    z-index: 99;
+    width: 45px;
+    height: 45px;
+    background: #25D366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.25);
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.whatsapp-float:hover {
+    background: #128C7E;
+    transform: scale(1.15);
+}
+
+.whatsapp-float i {
+    color: #fff;
+    font-size: 22px;
+}
+/*** WhatsApp Float Button End ***/
