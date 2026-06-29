@@ -9885,3 +9885,9 @@ a{ color:#790002; } a:hover{ color:#996A01; }
 .section-title span{ color:#790002 !important; }
 .back-to-top{ background-color:#790002 !important; border-color:#790002 !important; }
 .back-to-top:hover{ background-color:#996A01 !important; border-color:#996A01 !important; }
+/* Footer on navy: maroon reads poorly — use gold for footer headings, icons and links */
+.bg-secondary .text-primary{ color:#c79a3a !important; }
+.bg-secondary a.text-primary{ color:#c79a3a !important; }
+.bg-secondary a.text-primary:hover{ color:#996A01 !important; }
+.bg-secondary .btn-outline-primary{ color:#c79a3a !important; border-color:#c79a3a !important; }
+.bg-secondary .btn-outline-primary:hover{ background-color:#c79a3a !important; color:#393d72 !important; border-color:#c79a3a !important; }
