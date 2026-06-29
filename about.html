@@ -1,530 +1,457 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>About Us — Promise Centre for Education</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Promise Centre for Education — quality teaching, personalized guidance and a nurturing learning environment." name="description" />
+    <meta content="Promise Centre for Education, school tuition, coaching, Kolkata" name="keywords" />
 
-    <head>
-        <meta charset="utf-8">
-        <title>Promise Education</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="" name="keywords">
-        <meta content="" name="description">
+    <link href="img/LOGO.png" rel="icon" />
 
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-        <!-- Icon Font Stylesheet -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
-        <!-- Libraries Stylesheet -->
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-
-        
-
-    </head>
-
-    <body>
-
-        <!-- Spinner Start -->
-        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
-            <div class="spinner-grow text-primary" role="status"></div>
-        </div>
-        <!-- Spinner End -->
-
-
-        <!-- Navbar start -->
-        <div class="container-fluid border-bottom bg-light wow fadeIn" data-wow-delay="0.1s">
-            <div class="container topbar bg-primary d-none d-lg-block py-2" style="border-radius: 0 40px">
-                <div class="d-flex justify-content-between">
-                    <div class="top-info ps-2">
-                        <small class="me-3"><i class="fas fa-map-marker-alt me-2 text-secondary"></i> <a href="#" class="text-white">123 Street, New York</a></small>
-                        <small class="me-3"><i class="fas fa-envelope me-2 text-secondary"></i><a href="#" class="text-white">Email@Example.com</a></small>
-                    </div>
-                    <div class="top-link pe-2">
-                        <a href="" class="btn btn-light btn-sm-square rounded-circle"><i class="fab fa-facebook-f text-secondary"></i></a>
-                        <a href="" class="btn btn-light btn-sm-square rounded-circle"><i class="fab fa-twitter text-secondary"></i></a>
-                        <a href="" class="btn btn-light btn-sm-square rounded-circle"><i class="fab fa-instagram text-secondary"></i></a>
-                        <a href="" class="btn btn-light btn-sm-square rounded-circle me-0"><i class="fab fa-linkedin-in text-secondary"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="container px-0">
-                <nav class="navbar navbar-light navbar-expand-xl py-3">
-                                        <a href="index.html" class="navbar-brand"><img src="img/LOGO.png" alt="Logo" width="70" height="70"></a>
-
-                    <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                        <span class="fa fa-bars text-primary"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <div class="navbar-nav mx-auto">
-                            <a href="index.html" class="nav-item nav-link">Home</a>
-                            <a href="about.html" class="nav-item nav-link active">About</a>
-                            <a href="program.html" class="nav-item nav-link">Courses</a>
-                            <a href="results.html" class="nav-item nav-link">Results</a>
-                            <a href="gallery.html" class="nav-item nav-link">Gallery</a>
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
-                                <div class="dropdown-menu m-0 bg-secondary rounded-0">
-                                    <a href="service.html" class="dropdown-item">Services</a>
-                                    <a href="event.html" class="dropdown-item">Events</a>
-                                    <a href="blog.html" class="dropdown-item">Our Blog</a>
-                                    <a href="team.html" class="dropdown-item">Our Team</a>
-                                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                </div>
-                            </div>
-                            <a href="contact.html" class="nav-item nav-link">Contact</a>
-                        </div>
-                        <div class="d-flex me-4">
-                            <div id="phone-tada" class="d-flex align-items-center justify-content-center">
-                                <a href="" class="position-relative wow tada" data-wow-delay=".9s" >
-                                    <i class="fa fa-phone-alt text-primary fa-2x me-4"></i>
-                                    <div class="position-absolute" style="top: -7px; left: 20px;">
-                                        <span><i class="fa fa-comment-dots text-secondary"></i></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="d-flex flex-column pe-3 border-end border-primary">
-                                <span class="text-primary">Have any questions?</span>
-                                <a href="#"><span class="text-secondary">Free: + 0123 456 7890</span></a>
-                            </div>
-                        </div>
-                        <button class="btn-search btn btn-primary btn-md-square rounded-circle" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search text-white"></i></button>
-                    </div>
-                </nav>
-            </div>
-        </div>
-        <!-- Navbar End -->
-
-
-        <!-- Modal Search Start -->
-        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content rounded-0">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body d-flex align-items-center">
-                        <div class="input-group w-75 mx-auto d-flex">
-                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
-                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Modal Search End -->
-
-        
-        <!-- Page Header Start -->
-        <div class="container-fluid page-header py-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="container text-center py-5">
-                <h1 class="display-2 text-white mb-4">About Us</h1>
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb justify-content-center mb-0">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                        <li class="breadcrumb-item text-white" aria-current="page">About Us</li>
-                    </ol>
-                </nav>
-            </div>
-        </div>
-        <!-- Page Header End -->
-
-
-        <!-- About Start -->
-        <div class="container-fluid py-5 about bg-light">
-            <div class="container py-5">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="video border">
-                            <button type="button" class="btn btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
-                                <span></span>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="col-lg-7 wow fadeIn" data-wow-delay="0.3s">
-                        <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">About Us</h4>
-                        <h1 class="text-dark mb-4 display-5">We Learn Smart Way To Build Bright Futute For Your Children</h1>
-                        <p class="text-dark mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-                        </p>
-                        <div class="row mb-4">
-                            <div class="col-lg-6">
-                                <h6 class="mb-3"><i class="fas fa-check-circle me-2"></i>Sport Activites</h6>
-                                <h6 class="mb-3"><i class="fas fa-check-circle me-2 text-primary"></i>Outdoor Games</h6>
-                                <h6 class="mb-3"><i class="fas fa-check-circle me-2 text-secondary"></i>Nutritious Foods</h6>
-                            </div>
-                            <div class="col-lg-6">
-                                <h6 class="mb-3"><i class="fas fa-check-circle me-2"></i>Highly Secured</h6>
-                                <h6 class="mb-3"><i class="fas fa-check-circle me-2 text-primary"></i>Friendly Environment</h6>
-                                <h6><i class="fas fa-check-circle me-2 text-secondary"></i>Qualified Teacher</h6>
-                            </div>
-                        </div>
-                        <a href="" class="btn btn-primary px-5 py-3 btn-border-radius">More Details</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Modal Video -->
-        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content rounded-0">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <!-- 16:9 aspect ratio -->
-                        <div class="ratio ratio-16x9">
-                            <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
-                                allow="autoplay"></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- About End -->
-
-
-        <!-- Vision & Mission Start -->
-        <div class="container-fluid py-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="container py-5">
-                <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
-                    <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">Our Purpose</h4>
-                    <h1 class="mb-5 display-3">Vision &amp; Mission</h1>
-                </div>
-                <div class="row g-5">
-                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="p-4 border border-primary rounded bg-light h-100">
-                            <div class="d-flex align-items-center mb-4">
-                                <div class="btn btn-primary btn-lg-square rounded-circle me-3"><i class="fas fa-eye text-white"></i></div>
-                                <h3 class="text-dark mb-0">Our Vision</h3>
-                            </div>
-                            <p class="text-dark mb-3">To be the leading educational institution that empowers every student to reach their highest potential through quality education, innovation, and a nurturing environment.</p>
-                            <ul class="list-unstyled">
-                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Holistic development of every child</li>
-                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Excellence in academics and extracurriculars</li>
-                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Building future leaders and responsible citizens</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
-                        <div class="p-4 border border-secondary rounded bg-light h-100">
-                            <div class="d-flex align-items-center mb-4">
-                                <div class="btn btn-secondary btn-lg-square rounded-circle me-3"><i class="fas fa-bullseye text-white"></i></div>
-                                <h3 class="text-dark mb-0">Our Mission</h3>
-                            </div>
-                            <p class="text-dark mb-3">To provide affordable, high-quality education through experienced faculty, modern infrastructure, and personalised attention — inspiring a lifelong love of learning in every student.</p>
-                            <ul class="list-unstyled">
-                                <li class="mb-2"><i class="fas fa-check-circle text-secondary me-2"></i>Qualified and dedicated teaching staff</li>
-                                <li class="mb-2"><i class="fas fa-check-circle text-secondary me-2"></i>State-of-the-art learning facilities</li>
-                                <li class="mb-2"><i class="fas fa-check-circle text-secondary me-2"></i>Student-centred and inclusive education</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Vision & Mission End -->
-
-
-        <!-- Founder's Message Start -->
-        <div class="container-fluid py-5 bg-light wow fadeIn" data-wow-delay="0.1s">
-            <div class="container py-5">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-4 text-center wow fadeIn" data-wow-delay="0.1s">
-                        <div class="border border-primary rounded-circle d-inline-block p-3" style="border-width: 3px !important;">
-                            <img src="img/team-1.jpg" class="img-fluid rounded-circle" alt="Founder" style="width: 250px; height: 250px; object-fit: cover;">
-                        </div>
-                    </div>
-                    <div class="col-lg-8 wow fadeIn" data-wow-delay="0.3s">
-                        <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">Founder's Message</h4>
-                        <h1 class="text-dark mb-4 display-5">A Word From Our Founder</h1>
-                        <i class="fa fa-quote-left fa-2x text-primary mb-3 d-block"></i>
-                        <p class="text-dark mb-3 fs-5 fst-italic">"At Promise Education, our mission has always been to provide quality education that goes beyond textbooks. We believe every child deserves a nurturing environment where they can grow intellectually, emotionally, and creatively."</p>
-                        <p class="text-dark mb-4">"Over the years, we have seen thousands of students transform into confident, capable individuals. This inspires us every day to raise the bar and set new standards in education. We promise each family that entrusts their child to us — we will give our very best."</p>
-                        <h5 class="text-primary mb-1">— [Founder Name]</h5>
-                        <small class="text-muted">Founder &amp; Director, Promise Education</small>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Founder's Message End -->
-
-
-        <!-- Infrastructure Start -->
-        <div class="container-fluid py-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="container py-5">
-                <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
-                    <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">Our Facilities</h4>
-                    <h1 class="mb-5 display-3">World-Class Infrastructure</h1>
-                </div>
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="text-center p-4 bg-light border border-primary service-item">
-                            <div class="p-3"><i class="fas fa-laptop fa-4x text-primary"></i></div>
-                            <h5 class="text-dark mb-2">Smart Classrooms</h5>
-                            <p class="text-muted mb-0">Technology-enabled classrooms with projectors and interactive smart boards for immersive learning.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
-                        <div class="text-center p-4 bg-light border border-primary service-item">
-                            <div class="p-3"><i class="fas fa-book fa-4x text-primary"></i></div>
-                            <h5 class="text-dark mb-2">Library</h5>
-                            <p class="text-muted mb-0">A well-stocked library with thousands of books, journals, and digital resources for every subject.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
-                        <div class="text-center p-4 bg-light border border-primary service-item">
-                            <div class="p-3"><i class="fas fa-flask fa-4x text-primary"></i></div>
-                            <h5 class="text-dark mb-2">Science Lab</h5>
-                            <p class="text-muted mb-0">Fully equipped science laboratory for hands-on experiments in Physics, Chemistry, and Biology.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="text-center p-4 bg-light border border-primary service-item">
-                            <div class="p-3"><i class="fas fa-running fa-4x text-primary"></i></div>
-                            <h5 class="text-dark mb-2">Sports Ground</h5>
-                            <p class="text-muted mb-0">Spacious playground for cricket, football, basketball, and athletics to develop sportsmanship.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
-                        <div class="text-center p-4 bg-light border border-primary service-item">
-                            <div class="p-3"><i class="fas fa-desktop fa-4x text-primary"></i></div>
-                            <h5 class="text-dark mb-2">Computer Lab</h5>
-                            <p class="text-muted mb-0">Modern computer lab with high-speed internet access and latest software for digital literacy.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
-                        <div class="text-center p-4 bg-light border border-primary service-item">
-                            <div class="p-3"><i class="fas fa-music fa-4x text-primary"></i></div>
-                            <h5 class="text-dark mb-2">Activity Room</h5>
-                            <p class="text-muted mb-0">Dedicated space for music, dance, arts, and other creative extracurricular activities.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Infrastructure End -->
-
-
-        <!-- Faculty Start -->
-        <div class="container-fluid team py-5 bg-light wow fadeIn" data-wow-delay="0.1s">
-            <div class="container py-5">
-                <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">Our Faculty</h4>
-                    <h1 class="mb-5 display-3">Meet Our Expert Faculty</h1>
-                </div>
-                <div class="row g-5 justify-content-center">
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="team-item border border-primary img-border-radius overflow-hidden">
-                            <img src="img/team-1.jpg" class="img-fluid w-100" alt="Faculty Member">
-                            <div class="team-icon d-flex align-items-center justify-content-center">
-                                <a class="share btn btn-primary btn-md-square text-white rounded-circle me-3" href="#"><i class="fas fa-share-alt"></i></a>
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                            <div class="team-content text-center py-3">
-                                <h4 class="text-primary">[Teacher Name]</h4>
-                                <p class="text-muted mb-2">Mathematics Teacher</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeIn" data-wow-delay="0.3s">
-                        <div class="team-item border border-primary img-border-radius overflow-hidden">
-                            <img src="img/team-2.jpg" class="img-fluid w-100" alt="Faculty Member">
-                            <div class="team-icon d-flex align-items-center justify-content-center">
-                                <a class="share btn btn-primary btn-md-square text-white rounded-circle me-3" href="#"><i class="fas fa-share-alt"></i></a>
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                            <div class="team-content text-center py-3">
-                                <h4 class="text-primary">[Teacher Name]</h4>
-                                <p class="text-muted mb-2">Science Teacher</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeIn" data-wow-delay="0.5s">
-                        <div class="team-item border border-primary img-border-radius overflow-hidden">
-                            <img src="img/team-3.jpg" class="img-fluid w-100" alt="Faculty Member">
-                            <div class="team-icon d-flex align-items-center justify-content-center">
-                                <a class="share btn btn-primary btn-md-square text-white rounded-circle me-3" href="#"><i class="fas fa-share-alt"></i></a>
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                            <div class="team-content text-center py-3">
-                                <h4 class="text-primary">[Teacher Name]</h4>
-                                <p class="text-muted mb-2">English Teacher</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeIn" data-wow-delay="0.7s">
-                        <div class="team-item border border-primary img-border-radius overflow-hidden">
-                            <img src="img/team-4.jpg" class="img-fluid w-100" alt="Faculty Member">
-                            <div class="team-icon d-flex align-items-center justify-content-center">
-                                <a class="share btn btn-primary btn-md-square text-white rounded-circle me-3" href="#"><i class="fas fa-share-alt"></i></a>
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                            <div class="team-content text-center py-3">
-                                <h4 class="text-primary">[Teacher Name]</h4>
-                                <p class="text-muted mb-2">Social Science Teacher</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center mt-5 wow fadeIn" data-wow-delay="0.5s">
-                    <a href="team.html" class="btn btn-primary px-5 py-3 btn-border-radius">View All Faculty</a>
-                </div>
-            </div>
-        </div>
-        <!-- Faculty End -->
-
-
-        <!-- Footer Start -->
-        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                        <div class="footer-item">
-                            <h2 class="fw-bold mb-3"><span class="text-primary mb-0">Baby</span><span class="text-secondary">Care</span></h2>
-                            <p class="mb-4">There cursus massa at urnaaculis estieSed aliquamellus vitae ultrs condmentum leo massamollis its estiegittis miristum.</p>
-                            <div class="border border-primary p-3 rounded bg-light">
-                                <h5 class="mb-3">Newsletter</h5>
-                                <div class="position-relative mx-auto border border-primary rounded" style="max-width: 400px;">
-                                    <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                                    <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2 text-white">SignUp</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                        <div class="footer-item">
-                            <div class="d-flex flex-column p-4 ps-5 text-dark border border-primary" 
-                            style="border-radius: 50% 20% / 10% 40%;">
-                                <p>Monday: 8am to 5pm</p>
-                                <p>Tuesday: 8am to 5pm</p>
-                                <p>Wednes: 8am to 5pm</p>
-                                <p>Thursday: 8am to 5pm</p>
-                                <p>Friday: 8am to 5pm</p>
-                                <p>Saturday: 8am to 5pm</p>
-                                <p class="mb-0">Sunday: Closed</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                        <div class="footer-item">
-                            <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">LOCATION</h4>
-                            <div class="d-flex flex-column align-items-start">
-                                <a href="" class="text-body mb-4"><i class="fa fa-map-marker-alt text-primary me-2"></i> 104 North tower New York, USA</a>
-                                <a href="" class="text-start rounded-0 text-body mb-4"><i class="fa fa-phone-alt text-primary me-2"></i> (+012) 3456 7890 123</a>
-                                <a href="" class="text-start rounded-0 text-body mb-4"><i class="fas fa-envelope text-primary me-2"></i> exampleemail@gmail.com</a>
-                                <a href="" class="text-start rounded-0 text-body mb-4"><i class="fa fa-clock text-primary me-2"></i> 26/7 Hours Service</a>
-                                <div class="footer-icon d-flex">
-                                    <a class="btn btn-primary btn-sm-square me-3 rounded-circle text-white" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-primary btn-sm-square me-3 rounded-circle text-white" href=""><i class="fab fa-twitter"></i></a>
-                                    <a href="#" class="btn btn-primary btn-sm-square me-3 rounded-circle text-white"><i class="fab fa-instagram"></i></a>
-                                    <a href="#" class="btn btn-primary btn-sm-square rounded-circle text-white"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                        <div class="footer-item">
-                            <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">OUR GALLARY</h4>
-                            <div class="row g-3">
-                                <div class="col-4">
-                                    <div class="footer-galary-img rounded-circle border border-primary">
-                                        <img src="img/galary-1.jpg" class="img-fluid rounded-circle p-2" alt="">
-                                    </div>
-                               </div>
-                               <div class="col-4">
-                                    <div class="footer-galary-img rounded-circle border border-primary">
-                                        <img src="img/galary-2.jpg" class="img-fluid rounded-circle p-2" alt="">
-                                    </div>
-                               </div>
-                                <div class="col-4">
-                                    <div class="footer-galary-img rounded-circle border border-primary">
-                                        <img src="img/galary-3.jpg" class="img-fluid rounded-circle p-2" alt="">
-                                    </div>
-                               </div>
-                                <div class="col-4">
-                                    <div class="footer-galary-img rounded-circle border border-primary">
-                                        <img src="img/galary-4.jpg" class="img-fluid rounded-circle p-2" alt="">
-                                    </div>
-                               </div>
-                                <div class="col-4">
-                                    <div class="footer-galary-img rounded-circle border border-primary">
-                                        <img src="img/galary-5.jpg" class="img-fluid rounded-circle p-2" alt="">
-                                    </div>
-                               </div>
-                                <div class="col-4">
-                                    <div class="footer-galary-img rounded-circle border border-primary">
-                                        <img src="img/galary-6.jpg" class="img-fluid rounded-circle p-2" alt="">
-                                    </div>
-                               </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Footer End -->
-
-
-        <!-- Copyright Start -->
-        <div class="container-fluid copyright bg-dark py-4">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
-                    </div>
-                    <div class="col-md-6 my-auto text-center text-md-end text-white">
-                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Copyright End -->
-
-
-
-        <!-- WhatsApp Float -->
-        <a href="https://wa.me/911234567890" class="whatsapp-float" target="_blank" title="Chat on WhatsApp">
-            <i class="fab fa-whatsapp"></i>
+  <body>
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-light position-relative shadow">
+      <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-lg-5">
+        <a href="index.html" class="navbar-brand p-0">
+          <img src="img/LOGO.png" alt="Promise Centre for Education" style="height: 64px" />
         </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+          <div class="navbar-nav font-weight-bold mx-auto py-0">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="about.html" class="nav-item nav-link active">About</a>
+            <a href="class.html" class="nav-item nav-link">Courses</a>
+            <a href="team.html" class="nav-item nav-link">Faculty</a>
+            <a href="results.html" class="nav-item nav-link">Results</a>
+            <a href="gallery.html" class="nav-item nav-link">Gallery</a>
+            <a href="blog.html" class="nav-item nav-link">Blog</a>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+          </div>
+          <a href="contact.html" class="btn btn-primary px-4">Enquire Now</a>
+        </div>
+      </nav>
+    </div>
+    <!-- Navbar End -->
 
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-primary border-3 border-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary mb-5"><div class="d-flex flex-column align-items-center justify-content-center" style="min-height:400px"><h3 class="display-3 font-weight-bold text-white">About Us</h3><div class="d-inline-flex text-white"><p class="m-0"><a class="text-white" href="index.html">Home</a></p><p class="m-0 px-2">/</p><p class="m-0">About Us</p></div></div></div>
+    <!-- Header End -->
 
-        
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-5">
+            <img class="img-fluid rounded mb-5 mb-lg-0" src="img/about.jpg" alt="Promise classroom" />
+          </div>
+          <div class="col-lg-7">
+            <p class="section-title pr-5"><span class="pr-2">About Us</span></p>
+            <h1 class="mb-4">More Than an Institution — A Learning Community</h1>
+            <p>
+              At Promise Centre for Education, we believe every child has the potential to excel
+              when guided with the right mentorship, discipline, and encouragement. Our mission is
+              to create confident learners through quality teaching, personal attention, and a
+              nurturing academic environment.
+            </p>
+            <p>
+              We are more than just an educational institution — we are a learning community
+              dedicated to helping students unlock their full potential through quality teaching,
+              discipline, confidence-building, and mentorship.
+            </p>
+            <div class="row pt-2 pb-4">
+              <div class="col-12 col-md-6">
+                <ul class="list-inline m-0">
+                  <li class="py-2 border-top border-bottom">
+                    <i class="fa fa-check text-primary mr-3"></i>Experienced &amp; Caring Faculty
+                  </li>
+                  <li class="py-2 border-bottom">
+                    <i class="fa fa-check text-primary mr-3"></i>Small-Batch Personalized Attention
+                  </li>
+                  <li class="py-2 border-bottom">
+                    <i class="fa fa-check text-primary mr-3"></i>Regular Parent Feedback
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-md-6">
+                <ul class="list-inline m-0">
+                  <li class="py-2 border-top border-bottom">
+                    <i class="fa fa-check text-primary mr-3"></i>Smart Learning Methods
+                  </li>
+                  <li class="py-2 border-bottom">
+                    <i class="fa fa-check text-primary mr-3"></i>Discipline &amp; Motivation
+                  </li>
+                  <li class="py-2 border-bottom">
+                    <i class="fa fa-check text-primary mr-3"></i>Focus on Concept Clarity
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Vision & Mission Start -->
+    <div class="container-fluid py-5">
+      <div class="container">
+        <div class="text-center pb-2">
+          <p class="section-title px-5"><span class="px-2">Our Purpose</span></p>
+          <h1 class="mb-4">Vision &amp; Mission</h1>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 mb-4">
+            <div class="bg-light shadow-sm rounded h-100" style="padding: 40px">
+              <h3 class="mb-3"><i class="fa fa-eye text-primary mr-3"></i>Our Vision</h3>
+              <p class="m-0">
+                To become a trusted centre of educational excellence that empowers students with
+                knowledge, confidence, values, and lifelong learning skills.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4">
+            <div class="bg-light shadow-sm rounded h-100" style="padding: 40px">
+              <h3 class="mb-3"><i class="fa fa-bullseye text-primary mr-3"></i>Our Mission</h3>
+              <p class="mb-3">
+                To deliver quality education, encourage critical thinking, build student confidence,
+                create future-ready learners, and foster discipline and leadership.
+              </p>
+              <ul class="list-inline m-0">
+                <li class="py-2 border-top border-bottom">
+                  <i class="fa fa-check text-primary mr-3"></i>Deliver quality education
+                </li>
+                <li class="py-2 border-bottom">
+                  <i class="fa fa-check text-primary mr-3"></i>Encourage critical thinking
+                </li>
+                <li class="py-2 border-bottom">
+                  <i class="fa fa-check text-primary mr-3"></i>Build student confidence
+                </li>
+                <li class="py-2 border-bottom">
+                  <i class="fa fa-check text-primary mr-3"></i>Create future-ready learners
+                </li>
+                <li class="py-2 border-bottom">
+                  <i class="fa fa-check text-primary mr-3"></i>Foster discipline and leadership
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Vision & Mission End -->
+
+    <!-- Founder's Message Start -->
+    <div class="container-fluid py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-5 mb-5 mb-lg-0">
+            <img class="img-fluid rounded" src="img/team-1.jpg" alt="Founder of Promise Centre for Education" />
+          </div>
+          <div class="col-lg-7">
+            <p class="section-title pr-5"><span class="pr-2">Founder's Message</span></p>
+            <h1 class="mb-4">A Word From Our Founder</h1>
+            <p>
+              <i class="fas fa-quote-left text-primary mr-2"></i>
+              When we founded Promise Centre for Education, our goal was simple — to give every
+              student the mentorship, discipline, and encouragement they need to truly believe in
+              themselves. We don't just teach subjects; we build confident learners who are ready
+              for life beyond the classroom.
+            </p>
+            <h5 class="mt-4 mb-0">— [Founder Name], Founder &amp; Director</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Founder's Message End -->
+
+    <!-- World-Class Infrastructure Start -->
+    <div class="container-fluid pt-5">
+      <div class="container pb-3">
+        <div class="text-center pb-2">
+          <p class="section-title px-5"><span class="px-2">Our Facilities</span></p>
+          <h1 class="mb-4">World-Class Infrastructure</h1>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 pb-1">
+            <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px">
+              <i class="flaticon-014-blackboard h1 font-weight-normal text-primary mb-3"></i>
+              <div class="pl-4">
+                <h4>Smart Classrooms</h4>
+                <p class="m-0">Technology-enabled classrooms with projectors and interactive smart boards for immersive learning.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 pb-1">
+            <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px">
+              <i class="flaticon-032-book h1 font-weight-normal text-primary mb-3"></i>
+              <div class="pl-4">
+                <h4>Library</h4>
+                <p class="m-0">A well-stocked library with thousands of books, journals, and digital resources for every subject.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 pb-1">
+            <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px">
+              <i class="flaticon-041-abacus h1 font-weight-normal text-primary mb-3"></i>
+              <div class="pl-4">
+                <h4>Science Lab</h4>
+                <p class="m-0">Fully equipped science laboratory for hands-on experiments in Physics, Chemistry, and Biology.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 pb-1">
+            <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px">
+              <i class="flaticon-018-ball h1 font-weight-normal text-primary mb-3"></i>
+              <div class="pl-4">
+                <h4>Sports Ground</h4>
+                <p class="m-0">Spacious playground for cricket, football, basketball, and athletics to develop sportsmanship.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 pb-1">
+            <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px">
+              <i class="flaticon-040-puzzle h1 font-weight-normal text-primary mb-3"></i>
+              <div class="pl-4">
+                <h4>Computer Lab</h4>
+                <p class="m-0">Modern computer lab with high-speed internet access and latest software for digital literacy.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 pb-1">
+            <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px">
+              <i class="flaticon-027-xylophone h1 font-weight-normal text-primary mb-3"></i>
+              <div class="pl-4">
+                <h4>Activity Room</h4>
+                <p class="m-0">Dedicated space for music, dance, arts, and other creative extracurricular activities.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- World-Class Infrastructure End -->
+
+    <!-- Our Strengths Start -->
+    <div class="container-fluid pt-5">
+      <div class="container pb-3">
+        <div class="text-center pb-2">
+          <p class="section-title px-5"><span class="px-2">What We Offer</span></p>
+          <h1 class="mb-4">Our Strengths</h1>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 pb-1">
+            <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px">
+              <i class="flaticon-043-teddy-bear h1 font-weight-normal text-primary mb-3"></i>
+              <div class="pl-4">
+                <h4>Experienced &amp; Caring Faculty</h4>
+                <p class="m-0">Dedicated educators who genuinely invest in every student's progress.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 pb-1">
+            <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px">
+              <i class="flaticon-030-crayons h1 font-weight-normal text-primary mb-3"></i>
+              <div class="pl-4">
+                <h4>Small-Batch Personalized Attention</h4>
+                <p class="m-0">Small batches ensure every student receives focused, individual guidance.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 pb-1">
+            <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px">
+              <i class="flaticon-022-drum h1 font-weight-normal text-primary mb-3"></i>
+              <div class="pl-4">
+                <h4>Smart Learning Methods</h4>
+                <p class="m-0">An interactive, concept-based approach that makes learning stick.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 pb-1">
+            <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px">
+              <i class="flaticon-025-sandwich h1 font-weight-normal text-primary mb-3"></i>
+              <div class="pl-4">
+                <h4>Concept Clarity</h4>
+                <p class="m-0">We build strong fundamentals so students learn with real understanding.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 pb-1">
+            <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px">
+              <i class="flaticon-050-fence h1 font-weight-normal text-primary mb-3"></i>
+              <div class="pl-4">
+                <h4>Discipline &amp; Motivation</h4>
+                <p class="m-0">A structured, encouraging environment that keeps students motivated.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 pb-1">
+            <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px">
+              <i class="flaticon-047-backpack h1 font-weight-normal text-primary mb-3"></i>
+              <div class="pl-4">
+                <h4>Regular Parent Feedback</h4>
+                <p class="m-0">Honest, regular communication and progress tracking with parents.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Our Strengths End -->
+
+    <!-- Faculty Start -->
+    <div class="container-fluid pt-5">
+      <div class="container">
+        <div class="text-center pb-2">
+          <p class="section-title px-5"><span class="px-2">Our Faculty</span></p>
+          <h1 class="mb-4">Experienced &amp; Caring Mentors</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 text-center team mb-5">
+            <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
+              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <h4>[Teacher Name]</h4>
+            <i>Science &amp; Mathematics</i>
+          </div>
+          <div class="col-md-6 col-lg-3 text-center team mb-5">
+            <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
+              <img class="img-fluid w-100" src="img/team-2.jpg" alt="" />
+              <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <h4>[Teacher Name]</h4>
+            <i>English &amp; Communication</i>
+          </div>
+          <div class="col-md-6 col-lg-3 text-center team mb-5">
+            <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
+              <img class="img-fluid w-100" src="img/team-3.jpg" alt="" />
+              <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <h4>[Teacher Name]</h4>
+            <i>Commerce</i>
+          </div>
+          <div class="col-md-6 col-lg-3 text-center team mb-5">
+            <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
+              <img class="img-fluid w-100" src="img/team-4.jpg" alt="" />
+              <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <h4>[Teacher Name]</h4>
+            <i>Competitive Exams</i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Faculty End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5">
+      <div class="row pt-5">
+        <div class="col-lg-3 col-md-6 mb-5">
+          <a href="index.html" class="navbar-brand m-0 mb-4 p-0">
+            <img src="img/LOGO.png" alt="Promise Centre for Education" style="height: 70px; background:#fff; border-radius:8px; padding:4px;" />
+          </a>
+          <p class="mt-4">
+            Promise Centre for Education nurtures young minds through academic excellence,
+            personalized guidance and a supportive learning environment designed for holistic growth.
+          </p>
+          <div class="d-flex justify-content-start mt-4">
+            <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-instagram"></i></a>
+            <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+          <h3 class="text-primary mb-4">Get In Touch</h3>
+          <div class="d-flex">
+            <h4 class="fa fa-map-marker-alt text-primary"></h4>
+            <div class="pl-3"><h5 class="text-white">Address</h5><p>[Street Address], Kolkata, West Bengal [PIN]</p></div>
+          </div>
+          <div class="d-flex">
+            <h4 class="fa fa-envelope text-primary"></h4>
+            <div class="pl-3"><h5 class="text-white">Email</h5><p>[info@promiseeducation.in]</p></div>
+          </div>
+          <div class="d-flex">
+            <h4 class="fa fa-phone-alt text-primary"></h4>
+            <div class="pl-3"><h5 class="text-white">Phone</h5><p>[+91 XXXXX XXXXX]</p></div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+          <h3 class="text-primary mb-4">Quick Links</h3>
+          <div class="d-flex flex-column justify-content-start">
+            <a class="text-white mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+            <a class="text-white mb-2" href="class.html"><i class="fa fa-angle-right mr-2"></i>Courses</a>
+            <a class="text-white mb-2" href="results.html"><i class="fa fa-angle-right mr-2"></i>Results</a>
+            <a class="text-white mb-2" href="gallery.html"><i class="fa fa-angle-right mr-2"></i>Gallery</a>
+            <a class="text-white mb-2" href="blog.html"><i class="fa fa-angle-right mr-2"></i>Our Blog</a>
+            <a class="text-white" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+          <h3 class="text-primary mb-4">Newsletter</h3>
+          <p>Book a free counseling session — get school news &amp; admission updates.</p>
+          <form action="">
+            <div class="form-group">
+              <input type="text" class="form-control border-0 py-4" placeholder="Your Name" required="required" />
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control border-0 py-4" placeholder="Your Email" required="required" />
+            </div>
+            <div>
+              <button class="btn btn-primary btn-block border-0 py-3" type="submit">Submit Now</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="container-fluid pt-5" style="border-top: 1px solid rgba(23, 162, 184, 0.2)">
+        <p class="m-0 text-center text-white">
+          &copy; <a class="text-primary font-weight-bold" href="index.html">Promise Centre for Education</a>. All Rights Reserved.
+        </p>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary p-3 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/91XXXXXXXXXX" class="btn btn-success rounded-circle p-3 position-fixed" style="bottom: 30px; left: 30px; z-index: 99" target="_blank" title="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+
     <!-- JavaScript Libraries -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-    <!-- Template Javascript -->
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
     <script src="js/main.js"></script>
-    </body>
-
+  </body>
 </html>
