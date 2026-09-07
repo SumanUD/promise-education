@@ -47,6 +47,42 @@
     });
 
 
+    // Hero banner carousel — auto-rotating programme posters
+    $(".hero-carousel").owlCarousel({
+        items: 1,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        autoplayHoverPause: true,
+        smartSpeed: 900,
+        loop: true,
+        dots: true,
+        nav: false
+    });
+
+
+    // Course carousel
+    $(".course-carousel").owlCarousel({
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
+        smartSpeed: 900,
+        margin: 24,
+        loop: true,
+        dots: false,
+        nav: true,
+        navText: [
+            '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+            '<i class="fa fa-angle-right" aria-hidden="true"></i>'
+        ],
+        responsive: {
+            0: { items: 1 },
+            576: { items: 2 },
+            992: { items: 3 },
+            1200: { items: 4 }
+        }
+    });
+
+
     // Post carousel
     $(".post-carousel").owlCarousel({
         autoplay: true,

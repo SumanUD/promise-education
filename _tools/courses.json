@@ -1,0 +1,233 @@
+[
+  {
+    "slug": "cognitive-brain-development",
+    "name": "Cognitive Brain Development",
+    "tagline": "The flagship programme — training the brain before the syllabus.",
+    "image": "course-cognitive.jpg",
+    "meta": ["Ages 3–13", "Flagship"],
+    "summary": "Our founding programme, and the one everything else at Promise is built on. Drawing on cognitive science and neuroeducation, it trains the underlying machinery of learning — memory, attention, emotional regulation and learning agility — so that whatever a child studies afterwards lands faster and stays longer.",
+    "learn": [
+      "Memory and recall techniques children can use in any subject",
+      "Focus and attention training, built up in short daily drills",
+      "Emotional regulation — noticing and naming what they feel",
+      "Decision-making and structured problem solving",
+      "Communication and speaking with confidence",
+      "Learning agility: how to approach something new"
+    ],
+    "facts": [
+      ["Age group", "3 to 13 years"],
+      ["Mode", "At the centre or online"],
+      ["Batch size", "Small batches"],
+      ["Structure", "Modular, assessed at each stage"]
+    ],
+    "note": "This programme also runs as personality development and soft-skills training for older students."
+  },
+  {
+    "slug": "vedic-maths",
+    "name": "Magic Brain Vedic Maths",
+    "tagline": "Mental arithmetic that is fast, visual and genuinely enjoyable.",
+    "image": "course-vedic-maths.jpg",
+    "meta": ["Ages 5+", "Online & offline"],
+    "summary": "Vedic maths replaces long, mechanical calculation with a small set of elegant sutras. Children learn to see the shortcut, hold the numbers in their head, and check their own answers — which changes how they feel about maths well before it changes their marks.",
+    "learn": [
+      "Sutra-based mental arithmetic",
+      "Multiplication and division shortcuts",
+      "Squares, cubes and square roots at speed",
+      "Speed-and-accuracy drills against the clock",
+      "Cross-checking a result without redoing it",
+      "Applying the methods under exam conditions"
+    ],
+    "facts": [
+      ["Age group", "5 years and above"],
+      ["Mode", "Online and at the centre"],
+      ["Batch size", "Small batches"],
+      ["Levels", "Progressive, with assessment at each level"]
+    ],
+    "note": ""
+  },
+  {
+    "slug": "indian-abacus",
+    "name": "Indian Abacus",
+    "tagline": "The first digital abacus tool — concentration you can measure.",
+    "image": "course-abacus.jpg",
+    "meta": ["Ages 5+", "Level-based"],
+    "summary": "Promise Centre is an authorised Indian Abacus centre, using the digital abacus rather than the traditional wooden frame. Children work through levels, first with the tool and then entirely in their heads, building the visualisation and concentration that abacus training is known for.",
+    "learn": [
+      "Bead visualisation and finger technique",
+      "Addition and subtraction across multiple digits",
+      "Multiplication and division on the abacus",
+      "Mental arithmetic with no tool at all",
+      "Speed and accuracy under time pressure",
+      "Sustained concentration and listening"
+    ],
+    "facts": [
+      ["Age group", "5 years and above"],
+      ["Mode", "At the centre, with online options"],
+      ["Structure", "Level by level, each ending in an assessment"],
+      ["Tool", "Indian Abacus digital abacus"]
+    ],
+    "note": ""
+  },
+  {
+    "slug": "coding-for-kids",
+    "name": "Coding for Kids",
+    "tagline": "Design, program and publish your own apps.",
+    "image": "course-coding.jpg",
+    "meta": ["Ages 8+", "32 hours", "Certified"],
+    "summary": "A structured, certified coding course that takes a child from first principles to a working, publishable app. The curriculum runs through examples and exercises rather than theory, and every level ends with something the child has actually built.",
+    "learn": [
+      "Computational thinking and how to break a problem down",
+      "Designing skills — planning a screen before building it",
+      "Logical and analytical reasoning",
+      "Writing, testing and fixing your own code",
+      "Building 15 or more apps across the first level",
+      "Progressing to Python, Java, C/C++, Arduino and CCNA"
+    ],
+    "facts": [
+      ["Age group", "8 years and above"],
+      ["Duration", "32 hours · first level approx. 2 months"],
+      ["Schedule", "Two classes a week"],
+      ["Mode", "Online classes available, beginners to advanced"],
+      ["Outcome", "Certified course, 15+ apps built"]
+    ],
+    "note": "Older and more advanced students continue into Python, Java, C/C++, Arduino and CCNA tracks."
+  },
+  {
+    "slug": "robotics-and-ai",
+    "name": "Robotics & AI Innovation Lab",
+    "tagline": "Innovate. Code. Create.",
+    "image": "course-robotics.jpg",
+    "meta": ["Ages 8+", "Lab-based"],
+    "summary": "Our Brain Skool robotics lab is a hands-on space where children assemble, wire and program working robots. It pairs naturally with the coding course: the code stops being abstract the moment it makes something move.",
+    "learn": [
+      "How sensors and actuators actually work",
+      "Assembling and wiring a robot from parts",
+      "Programming with blocks, then with text",
+      "Arduino-based projects from scratch",
+      "The basics of AI and machine perception",
+      "Presenting a finished build to an audience"
+    ],
+    "facts": [
+      ["Age group", "8 years and above"],
+      ["Mode", "In the lab at the centre"],
+      ["Batch size", "Small batches, shared kits"],
+      ["Outcome", "A working project and a showcase"]
+    ],
+    "note": ""
+  },
+  {
+    "slug": "junior-astronomer",
+    "name": "Junior Astronomer",
+    "tagline": "Space science for children who ask why.",
+    "image": "course-astronomy.jpg",
+    "meta": ["Grades 1–12", "Online"],
+    "summary": "An online astronomy course pitched at three levels, from grade 1 through to grade 12. It runs alongside live sky-watching sessions and our astro trips, so what a child learns on screen gets checked against the actual sky.",
+    "learn": [
+      "The solar system, and how we know what we know about it",
+      "Stars, constellations and how to find them",
+      "Using a telescope, and reading a sky chart",
+      "Space missions past and current",
+      "Separating astronomy from astrology — myths and facts",
+      "Observation sessions and astro trips"
+    ],
+    "facts": [
+      ["Levels", "Grades 1–4 · 5–10 · 11 & 12"],
+      ["Mode", "Online course with live sessions"],
+      ["Extras", "Astro trips and sky-watching events"],
+      ["Outcome", "Certificate of completion"]
+    ],
+    "note": ""
+  },
+  {
+    "slug": "handwriting-improvement",
+    "name": "Handwriting Improvement",
+    "tagline": "Penmanship coaching, with a certificate at the end.",
+    "image": "course-handwriting.jpg",
+    "meta": ["Ages 5+", "Group or 1-to-1"],
+    "summary": "Our penmanship programme fixes the mechanics first — grip, posture, letter formation — and only then works on speed. Parents usually notice the change in how their child sits down to work before they notice the change on the page.",
+    "learn": [
+      "Correct grip, posture and paper position",
+      "Consistent letter formation and height",
+      "Spacing, alignment and margins",
+      "Writing quickly without losing legibility",
+      "Cursive writing",
+      "Presenting an exam answer script clearly"
+    ],
+    "facts": [
+      ["Age group", "5 years and above"],
+      ["Format", "Group classes or one-to-one"],
+      ["Mode", "At the centre, with online options"],
+      ["Outcome", "Certificate of completion"]
+    ],
+    "note": ""
+  },
+  {
+    "slug": "english-and-communication",
+    "name": "English & Communication",
+    "tagline": "Speak fluently. Connect confidently.",
+    "image": "course-english.jpg",
+    "meta": ["All ages", "Spoken English"],
+    "summary": "A spoken-English and communication course that treats English as something you use rather than something you revise. Sessions are built around talking — discussion, presentation and interview practice — with grammar taught where it is needed.",
+    "learn": [
+      "Grammar, applied to real sentences you will actually say",
+      "Speaking skill and pronunciation",
+      "Group discussion and debate",
+      "Interview strategy and answering under pressure",
+      "Writing and listening skills",
+      "Public speaking and stage confidence"
+    ],
+    "facts": [
+      ["Age group", "School students through to adults"],
+      ["Mode", "At the centre and online"],
+      ["Batch size", "Small batches"],
+      ["Tracks", "School, competitive interview, and adult fluency"]
+    ],
+    "note": "A dedicated batch for mothers runs under our “Mom, Unlock Your English” programme — tailored courses, flexible schedules and a supportive group."
+  },
+  {
+    "slug": "soft-skills-and-personality",
+    "name": "Soft Skills & Personality Development",
+    "tagline": "The skills that decide what a child does with everything else.",
+    "image": "course-soft-skills.jpg",
+    "meta": ["Ages 8+", "Adults welcome"],
+    "summary": "Promise Centre is a soft-skills management and international studies centre, and this is the programme that name comes from. It is structured training in the behaviours that schools assume children will pick up on their own — and most do not.",
+    "learn": [
+      "Self-motivation and setting your own goals",
+      "Leadership and taking responsibility",
+      "Communication and listening",
+      "Teamwork and working with people you did not choose",
+      "Decisiveness and problem solving",
+      "Flexibility and resilience when plans change"
+    ],
+    "facts": [
+      ["Age group", "8 years and above; adult batches available"],
+      ["Mode", "At the centre and online"],
+      ["Format", "Workshop-style, activity-led"],
+      ["Extras", "Teach the Moms — a parallel programme for mothers"]
+    ],
+    "note": ""
+  },
+  {
+    "slug": "study-abroad",
+    "name": "Study Abroad & International Studies",
+    "tagline": "A global next step, with the paperwork handled.",
+    "image": "course-study-abroad.jpg",
+    "meta": ["Ages 17+", "Counselling"],
+    "summary": "For older students and working adults, Promise Centre acts as an international studies centre — advising on and enrolling students into diploma, degree and teaching-qualification pathways abroad, in partnership with institutions in Dubai and the UK.",
+    "learn": [
+      "Bachelor diploma in Business Management, Dubai",
+      "OTHM Level 5 Diploma in Business Management",
+      "Level 5 Diploma in Education & Training — a UAE-approved teaching licence",
+      "MBBS and medical pathways abroad",
+      "Choosing a country, course and intake that fit",
+      "Applications, documentation and visa guidance"
+    ],
+    "facts": [
+      ["Who it is for", "Students aged 17+ and working professionals"],
+      ["Destinations", "Dubai, the UK and other partner countries"],
+      ["Format", "One-to-one counselling, then enrolment support"],
+      ["Intakes", "Multiple intakes through the year"]
+    ],
+    "note": "Fees, intakes and entry requirements vary by institution — ask us for the current details for the pathway you are considering."
+  }
+]
