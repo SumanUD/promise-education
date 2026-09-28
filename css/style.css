@@ -10534,6 +10534,17 @@ textarea:focus-visible {
   font-size: .88rem;
 }
 
+/* Poster wall on course pages: a plain grid, so mixed poster shapes sit evenly
+   without needing Bootstrap columns around each one. */
+.tile-wall {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+@media (max-width: 575.98px) {
+  .tile-wall { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; }
+}
+
 .tile--poster { background: var(--paper); border: 1px solid var(--line); }
 .tile--poster img {
   aspect-ratio: 1 / 1;

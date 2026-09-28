@@ -120,7 +120,7 @@ PAGE = """<!DOCTYPE html>
       </div>
     </div>
     <!-- Course Detail End -->
-
+{gallery}
     <!-- Enquiry Start -->
     <div class="container-fluid section bg-light">
       <div class="container">
@@ -205,6 +205,35 @@ PAGE = """<!DOCTYPE html>
 """
 
 
+
+def gallery_block(course):
+    """Optional poster wall - only for courses that ship extra creatives."""
+    shots = course.get("gallery") or []
+    if not shots:
+        return ""
+    tiles = "".join(
+        f"""          <a href="../img/{g}" data-lightbox="course" class="tile tile--poster">
+            <img src="../img/{g}" alt="{html.escape(course['name'])} at Promise Centre for Education" />
+          </a>
+"""
+        for g in shots
+    )
+    return f"""
+    <!-- Course Gallery Start -->
+    <div class="container-fluid section bg-light">
+      <div class="container">
+        <div class="text-center">
+          <p class="section-title"><span>In detail</span></p>
+          <h2 class="mb-5">Programmes and pathways</h2>
+        </div>
+        <div class="tile-wall">
+{tiles}        </div>
+      </div>
+    </div>
+    <!-- Course Gallery End -->
+"""
+
+
 def card(course, prefix=""):
     metas = "".join(f"<li>{html.escape(m)}</li>" for m in course["meta"])
     return f"""          <div class="col-lg-3 col-md-6 mb-4">
@@ -244,6 +273,7 @@ for course in COURSES:
             for k, v in course["facts"]
         ),
         note=note_html,
+        gallery=gallery_block(course),
         others="\n".join(card(c, prefix="../") for c in others),
         whatsapp=WHATSAPP,
         nav=NAV,
