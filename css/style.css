@@ -10411,6 +10411,9 @@ textarea:focus-visible {
 }
 .course-carousel .owl-nav .owl-prev,
 .course-carousel .owl-nav .owl-next {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -10499,9 +10502,11 @@ textarea:focus-visible {
 .page-header h1 { color: #fff; margin-bottom: 8px; }
 .page-header p { color: #cfe6f6; margin: 0 auto; }
 .page-header .breadcrumb-line {
+  max-width: none;
   font-size: .85rem;
   color: #9fcbe8;
-  margin-top: 12px;
+  margin: 12px auto 0 !important;
+  text-align: center;
 }
 .page-header .breadcrumb-line a { color: #cfe6f6; }
 
